@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+html{ 
+    font-size: 62.5%;
+    scroll-behavior: smooth
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 6rem;
+}
+h2{
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 6rem;
+    
+}
+h3{
+    font-size: 4rem;
+}
+h4{
+    font-size: 3rem;
+}
+h5{
+    font-size: 2.5rem;
+}
+h6{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 2rem;
+}
+
+.responsive-table{
+    overflow-x: auto;
+}
+table{
+    min-width: 360px;
+    width:100%;
+    border-collapse: collapse;
+}
+
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td, table th{
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid #EEEEEE
+}
+
+tfoot td, table th{
+    color: var(--primary-color);
+    background: #EEEEEE
+}
